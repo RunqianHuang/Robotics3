@@ -1,0 +1,9 @@
+<!-- Launch services for p3 on HW3 -->
+<launch>
+  <node name="p1b" pkg="hw3" type="p1b.py" output="screen"/>
+  <node name="p2a" pkg="hw3" type="p2a.py" output="screen"/>
+  <node name="p2b" pkg="hw3" type="p2b.py" output="screen"/>
+  <node name="p3" pkg="hw3" type="p3.py" output="screen"/>
+</launch>
+
+
